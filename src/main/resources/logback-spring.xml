@@ -63,7 +63,7 @@
         </logger>
     </springProfile>
 
-    <root level="warn">
+    <root level="info">
         <appender-ref ref="Console-Appender-Trace"/>
         <appender-ref ref="Async-Appender"/>
     </root>
